@@ -1,0 +1,66 @@
+
+
+/* shared style */
+
+.content-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* nabvar section style */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px 40px 150px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+
+.menu-items li{
+    list-style: none;   
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-1, .nav-4{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #252432;
+}
+
+.nav-2, .nav-3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8987A1;
+
+}
+
+/* banner section style */
+
+.banner{
+    display: flex;
+    justify-content: right;
+    margin: 436px 0px 441px 340px;
+}
+.title{
+    max-width: 570px;
+    text-align: left;
+    margin-top: 162px ;
+}
+
+
+.banner-title{
+    font-size:4rem ;
+    font-weight:bold;
+    margin: 5px;
+}
+
+.fresh{
+    color: #E95A08;
+}

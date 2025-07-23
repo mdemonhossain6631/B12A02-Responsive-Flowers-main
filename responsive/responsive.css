@@ -1,0 +1,40 @@
+
+
+@media screen and (max-width: 576px) {
+
+    .menu{
+        padding: 13px 16px 28px 16px;
+        
+    }
+
+    .nav-1, .nav-2, .nav-3{
+        display: none;   
+    }
+
+    .navbar ul{
+    display: inline;
+    gap: auto;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        margin: 28px auto;
+    }
+    
+    .title{
+    text-align: justify;
+    margin: 28px 16px 28px 16px;
+    }
+    .banner-title{
+    font-size:1.24rem ;
+    
+    }
+
+    .banner-img{
+        margin-top: 28px;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
