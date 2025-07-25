@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 576px) {
 
+    /* nav style */
     .menu{
         padding: 13px 16px 28px 16px;
         
@@ -15,6 +16,7 @@
     display: inline;
     gap: auto;
     }
+    /* banner style */
 
     .banner{
         flex-direction: column-reverse;
@@ -35,6 +37,53 @@
         width: 100%;
         height: 100%;
     }
-    
+    /* plant style */
 
+    .plant-section{
+    margin: 65px 16px 41px 16px;
+}
+
+    .all-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .flower img{
+        width: 100%;
+        height: 100%;
+    }
+    /* plant lover section style */
+
+    .plant-lover{
+        flex-direction: column;
+         margin: 41px 16px 143px 16px;
+         text-align: left;
+
+    }
+    .plant-lover img{
+        width: 100%;
+        height: 100%;
+    }
+    .badge{
+        visibility: hidden;
+    }
+
+    /* join section style */
+    .join-section{
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .join-title{
+        padding: 110px 79px 23px 79px;
+        font-size: 1.25rem;
+    }
+    .input{
+        padding: 0px 36px 65px 36px;
+        /* width: 50%; */
+    }
+    .email{
+    padding: 16px 114px 16px 20px;
+    border: none;
+    }
 }
