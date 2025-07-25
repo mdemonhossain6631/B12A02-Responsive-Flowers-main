@@ -20,8 +20,10 @@
 
 .menu-items li {
     list-style: none;
-
+    margin-top: 23px;
 }
+.menu-items li:hover{background-color: rgb(53, 204, 96);}
+
 .navbar ul {
     display: flex;
     gap: 40px;
@@ -122,6 +124,7 @@
     border: hidden;
     font-weight: 600;
 }
+.btn-primary:hover{background-color: lightseagreen;}
 
 /* plant-lover section style */
 
@@ -268,8 +271,10 @@
     color: #FFFFFF;
     padding: 16px 54px;
     border: none;
-    font-weight: 500;
+    font-weight: 600;
 }
+
+.btn-primary-1:hover{background-color: lightseagreen;}
 
 /* footer section title */
 
