@@ -86,4 +86,14 @@
     padding: 16px 114px 16px 20px;
     border: none;
     }
+
+    /* footer section style */
+
+    .footer-section{
+        flex-direction: column;
+    }
+    .home, .features li{
+        margin-left: -40px;
+    }
+
 }
